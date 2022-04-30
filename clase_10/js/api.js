@@ -13,7 +13,6 @@ function buscarPokemon(numero){
 }
 
 const renderPokemonData = data => {
-    // const sprite =  data.sprites.front_default;
     const { stats, types } = data;
     document.getElementById('skills-description').style.display = "block"
 
